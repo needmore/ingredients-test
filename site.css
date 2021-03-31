@@ -5,18 +5,18 @@ body {
 .grid {
 	display: grid;
 	width: 100vw;
-	height: 60vw;
-	background-color: #eee;
-	grid-template-columns: 25fr 25fr 25fr 25fr;
+	background-color: #fafafa;
+	grid-template-columns: 12.5fr 12.5fr 12.5fr 12.5fr 12.5fr 12.5fr 12.5fr 12.5fr;
 	grid-template-rows: 33.33fr 33.33fr 33.33fr;
-	grid-template-columns: auto auto auto auto;
+	grid-template-columns: auto auto auto auto auto auto auto auto;
 	grid-template-rows: auto auto auto;
 	gap: 1rem 1rem;
 }
 
 .cell {
-	background-color: #ddd;
 	height: 100%;
+	min-width: 10vw;
+	min-height: 10vw;
 }
 .cell label {
 	display: flex;
@@ -26,6 +26,8 @@ body {
 	text-align: center;
 	width: 100%;
 	height: 100%;
+	margin: 0;
+	padding: 0;
 	/* transition: all 1s; */
 }
 .cell label svg {
@@ -40,7 +42,7 @@ body {
 	max-width: 16rem;
 }
 
-.cell label {
+.cell  {
 	transition: all 0.5s;
 }
 .cell input[type="radio"] {
@@ -48,6 +50,8 @@ body {
 	width: 0;
 	height: 0;
 	opacity: 0;
+	display: none;
+	line-height: 0;
 }
 .cell input[type="radio"]:checked ~ label {
 	/* content: ''; */
