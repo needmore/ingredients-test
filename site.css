@@ -7,17 +7,18 @@ body {
 	width: 100vw;
 	max-width: 100vw;
 	min-height: 50vw;
+	height: calc(100vh - 2rem);
 	background-color: #fafafa;
 	grid-template-columns: 12.5fr 12.5fr 12.5fr 12.5fr 12.5fr 12.5fr 12.5fr 12.5fr;
 	grid-template-rows: 33.33fr 33.33fr 33.33fr;
 	grid-template-columns: auto auto auto auto auto auto auto auto;
 	grid-template-rows: auto auto auto;
-	gap: 1rem 1rem;
+	gap: 0 0;
 	/* gap: 0 0; */
 }
 
 .cell {
-	width: 0;
+	/* width: 0; */
 	/* height: 100%;
 	min-width: 10vw;
 	min-height: 3vw;
@@ -36,12 +37,14 @@ body {
 
 	height: 100%;
 	min-width: 10vw;
-	min-height: 3vw;
+	/* min-height: 3vw; */
 	background-color: white;
 }
 .cell label svg {
-	margin-left: auto;
-	margin-right: auto;
+	width: 75%;
+	height: auto;
+	min-width: 128px;
+	max-width: 512px;
 }
 .cell label p {
 	height: 0;
@@ -59,14 +62,14 @@ body {
 	max-height: 2vh;
 }
 
-/* input[type="radio"] {
+input[type="radio"] {
 	background-color: #fee;
 	width: 0;
 	height: 0;
 	opacity: 0;
 	display: none;
 	line-height: 0;
-} */
+}
 
 [id="checkbox_1"]:checked ~ .grid .cell:nth-child(1),
 [id="checkbox_2"]:checked ~ .grid .cell:nth-child(2),
@@ -93,19 +96,24 @@ body {
 [id="checkbox_23"]:checked ~ .grid .cell:nth-child(23),
 [id="checkbox_24"]:checked ~ .grid .cell:nth-child(24) {
 	width: 75vw;
-	height: 30vw;
+	min-height: 25vw;
+	padding-top: 2vw;
 	background-color: white;
 }
 
 [id="checkbox_1"]:checked ~ .grid .cell:nth-child(1) p,
 [id="checkbox_2"]:checked ~ .grid .cell:nth-child(2) p,
-[id="checkbox_9"]:checked ~ .grid .cell:nth-child(9) p {
+[id="checkbox_9"]:checked ~ .grid .cell:nth-child(9) p,
+[id="checkbox_10"]:checked ~ .grid .cell:nth-child(10) p,
+[id="checkbox_11"]:checked ~ .grid .cell:nth-child(11) p,
+[id="checkbox_12"]:checked ~ .grid .cell:nth-child(12) p {
 	height: auto;
 }
 
 /* Also be sure to hide irrelevant spaces */
-[id="checkbox_9"]:checked ~ .grid .cell.hide_9 label {
-	width: 0;
-	height: 0;
+[id="checkbox_9"]:checked ~ .grid .cell.hide_9 label,
+[id="checkbox_10"]:checked ~ .grid .cell.hide_10 label,
+[id="checkbox_11"]:checked ~ .grid .cell.hide_11 label,
+[id="checkbox_12"]:checked ~ .grid .cell.hide_12 label {
 	display: none;
 }
