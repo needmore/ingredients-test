@@ -6,82 +6,77 @@
 	<title>The HTML5 Herald</title>
 	<link rel="stylesheet" href="reset.css">
 	<link rel="stylesheet" href="site.css">
+	<script>
+	function clearAllRadios() {
+		var radList = document.getElementsByName('radiogroup');
+		for (var i = 0; i < radList.length; i++) {
+			document.getElementById(radList[i].id).checked = false;
+		}
+	}
+	</script>
 </head>
 
 <body>
 	<div class="grid">
 		<div class="cell">
-			<div class="contents">
-				<input type="radio" name="radiogroup" id="checkbox_7">
-				<label for="checkbox_1">Square 1</label>
-			</div>
+			<input type="radio" name="radiogroup" id="checkbox_1">
+			<label for="checkbox_1"></label>
 		</div>
 		<div class="cell">
-			<div class="contents">
-				<input type="radio" name="radiogroup" id="checkbox_1">
-				<label for="checkbox_2">Square 2</label>
-			</div>
+			<input type="radio" name="radiogroup" id="checkbox_2">
+			<label for="checkbox_2">
+				<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+					<g fill="none" fill-rule="evenodd">
+						<circle cx="64" cy="64" r="64" fill="#E5F7F5"/>
+						<path stroke="#007680" stroke-linejoin="round" stroke-width="4" d="M11.8003337 61.8767312C24.0496884 67.9925094 40.6729847 59.5443837 48.9295052 43.0073143 57.1860257 26.4702449 53.949194 8.10648362 41.6998393 1.99070543 29.4504846-4.12507276 12.8271883 4.32305294 4.57066778 20.8601223-3.68585272 37.3971917-.449021052 55.760953 11.8003337 61.8767312zM41.1021898 3.17211243C13.1980828 19.4212772 38.4573916 48.1217954 11.7954482 61.8747461" transform="translate(36.923 32)"/>
+					</g>
+				</svg>
+				<h3>Green Coffee</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+			</label>
 		</div>
 		<div class="cell">
-			<div class="contents">
-				<input type="radio" name="radiogroup" id="checkbox_2">
-				<label for="checkbox_3">Square 3</label>
-			</div>
+			<input type="radio" name="radiogroup" id="checkbox_3">
+			<label for="checkbox_3">Square 3</label>
 		</div>
 		<div class="cell">
-			<div class="contents">
-				<input type="radio" name="radiogroup" id="checkbox_3">
-				<label for="checkbox_4">Square 4</label>
-			</div>
+			<input type="radio" name="radiogroup" id="checkbox_4">
+			<label for="checkbox_4">Square 4</label>
 		</div>
 		<div class="cell">
-			<div class="contents">
-				<input type="radio" name="radiogroup" id="checkbox_4">
-				<label for="checkbox_5">Square 5</label>
-			</div>
+			<input type="radio" name="radiogroup" id="checkbox_5">
+			<label for="checkbox_5">Square 5</label>
 		</div>
 		<div class="cell">
-			<div class="contents">
-				<input type="radio" name="radiogroup" id="checkbox_5">
-				<label for="checkbox_6">Square 6</label>
-			</div>
+			<input type="radio" name="radiogroup" id="checkbox_6">
+			<label for="checkbox_6">Square 6</label>
 		</div>
 		<div class="cell">
-			<div class="contents">
-				<input type="radio" name="radiogroup" id="checkbox_6">
-				<label for="checkbox_7">Square 7</label>
-			</div>
+			<input type="radio" name="radiogroup" id="checkbox_7">
+			<label for="checkbox_7">Square 7</label>
 		</div>
 		<div class="cell">
-			<div class="contents">
-				<input type="radio" name="radiogroup" id="checkbox_8">
-				<label for="checkbox_8">Square 8</label>
-			</div>
+			<input type="radio" name="radiogroup" id="checkbox_8">
+			<label for="checkbox_8">Square 8</label>
 		</div>
 		<div class="cell">
-			<div class="contents">
-				<input type="radio" name="radiogroup" id="checkbox_9">
-				<label for="checkbox_9">Square 9</label>
-			</div>
+			<input type="radio" name="radiogroup" id="checkbox_9">
+			<label for="checkbox_9">Square 9</label>
 		</div>
 		<div class="cell">
-			<div class="contents">
-				<input type="radio" name="radiogroup" id="checkbox_10">
-				<label for="checkbox_10">Square 10</label>
-			</div>
+			<input type="radio" name="radiogroup" id="checkbox_10">
+			<label for="checkbox_10">Square 10</label>
 		</div>
 		<div class="cell">
-			<div class="contents">
-				<input type="radio" name="radiogroup" id="checkbox_11">
-				<label for="checkbox_11">Square 11</label>
-			</div>
+			<input type="radio" name="radiogroup" id="checkbox_11">
+			<label for="checkbox_11">Square 11</label>
 		</div>
 		<div class="cell">
-			<div class="contents">
-				<input type="radio" name="radiogroup" id="checkbox_12">
-				<label for="checkbox_12">Square 12</label>
-			</div>
+			<input type="radio" name="radiogroup" id="checkbox_12">
+			<label for="checkbox_12">Square 12</label>
 		</div>
 	</div>
+
+	<a href="#" id="clear-button" onclick="clearAllRadios()">Zoom Out</a>
 </body>
 </html>
