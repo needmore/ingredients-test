@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="162" viewBox="0 0 128 162">
+  <g fill="none" fill-rule="evenodd">
+    <circle cx="64" cy="64" r="64" fill="#E5F7F5"/>
+    <text fill="#51534A" font-family="IdealSans-Medium, Ideal Sans" font-size="18" font-weight="400">
+      <tspan x="9.676" y="150">Freeze Drying</tspan>
+    </text>
+    <g stroke="#007680" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" transform="translate(31.923 32)">
+      <line x1="31.867" x2="31.867" y2="21.333"/>
+      <polyline points="42.533 4.267 31.867 12.8 21.2 4.267"/>
+      <line x1="4.162" x2="22.622" y1="16.014" y2="26.652"/>
+      <polyline points="13.179 8.895 15.227 22.4 2.484 27.349"/>
+      <line x1="4.162" x2="22.622" y1="47.986" y2="37.348"/>
+      <polyline points="2.515 36.608 15.23 41.557 13.153 55.04"/>
+      <line x1="31.867" x2="31.867" y1="64" y2="42.667"/>
+      <polyline points="21.2 59.733 31.867 51.2 42.533 59.733"/>
+      <line x1="59.572" x2="41.111" y1="47.986" y2="37.348"/>
+      <polyline points="50.552 55.105 48.475 41.594 61.19 36.617"/>
+      <line x1="59.572" x2="41.111" y1="16.014" y2="26.652"/>
+      <polyline points="61.193 27.364 48.45 22.386 50.498 8.88"/>
+      <polygon points="31.867 21.333 22.622 26.667 22.622 37.333 31.838 42.652 41.054 37.305 41.054 26.638 31.81 21.305"/>
+    </g>
+  </g>
+</svg>

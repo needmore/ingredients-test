@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="161" viewBox="0 0 128 161">
+  <g fill="none" fill-rule="evenodd">
+    <circle cx="64" cy="64" r="64" fill="#E5F7F5"/>
+    <text fill="#51534A" font-family="IdealSans-Medium, Ideal Sans" font-size="18" font-weight="400">
+      <tspan x="9.163" y="150">Liquid Extract</tspan>
+    </text>
+    <g stroke="#007680" transform="translate(31.923 32)">
+      <line x1="6.837" x2="6.837" y1="2" y2="63.744" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line x1="6.837" x2="23.302" y1="8.86" y2="8.86" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <polyline stroke-linecap="round" stroke-linejoin="round" stroke-width="4" points="32.907 6.116 23.302 6.116 23.302 14.349 56.233 14.349"/>
+      <polyline stroke-linecap="round" stroke-linejoin="round" stroke-width="4" points="48 8.86 48 .628 39.767 .628 39.767 8.86"/>
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M39.7674419,19.8372093 L39.7674419,23.165907 C33.4338605,24.9578605 28.7906977,30.7700465 28.7906977,37.6744186 C28.7906977,46.0112558 35.5496279,52.7674419 43.8837209,52.7674419 C52.217814,52.7674419 58.9767442,46.0112558 58.9767442,37.6744186 C58.9767442,30.7673023 54.3335814,24.9578605 48,23.165907 L48,19.8372093"/>
+      <circle cx="50.744" cy="41.791" r="2.744" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <circle cx="42.512" cy="44.535" r="1.372" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line x1="30.163" x2="57.605" y1="33.558" y2="33.558" stroke-linejoin="round" stroke-width="4"/>
+      <polygon stroke-linejoin="round" stroke-width="4" points="31.535 63.744 6.837 63.744 6.837 58.256 27.419 58.256"/>
+      <circle cx="36.072" cy="38.698" r="2.049" fill="#007680"/>
+    </g>
+  </g>
+</svg>
